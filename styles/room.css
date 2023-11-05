@@ -337,8 +337,7 @@
 
 .stream_actions a.active,
 .stream_actions button.active,
-.stream_actions a:hover,
-.stream_actions button:hover {
+.stream_actions a:hover{
   background-color: #3f81c2;
 }
 
@@ -356,3 +355,9 @@
   transform: translateX(-50%);
   cursor: pointer;
 }
+
+@media (hover: hover) { 
+  .stream_actions button:hover {
+    background-color: #3f81c2;
+  } 
+} 
