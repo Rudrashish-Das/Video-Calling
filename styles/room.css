@@ -267,6 +267,9 @@
   #message_form {
     width: 18.2rem;
   }
+  #screen-btn{
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
